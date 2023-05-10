@@ -23,6 +23,7 @@ from pygcn.adj_matrix import *
 import neptune.new as neptune
 
 # Create a Neptune run object
+# record1
 run = neptune.init_run(
     project="depressiondiagnosis/depressiondiagnosis",  
     api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJjMzRkYjU2OC05ZWZkLTQ4YTUtYTA1OS04OGUyYTUxOGY4MmQifQ==",
